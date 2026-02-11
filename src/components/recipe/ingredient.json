@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_recipe_ingredients",
+  "info": {
+    "displayName": "ingredient",
+    "icon": "restaurant"
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

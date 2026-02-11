@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "tag": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "guide",
+        "tips",
+        "flavors",
+        "recipe"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "readTime": {
+      "type": "integer"
+    },
+    "sections": {
+      "type": "component",
+      "component": "article.section",
+      "repeatable": true
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

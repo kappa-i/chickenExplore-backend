@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_article_sections",
+  "info": {
+    "displayName": "section",
+    "icon": "file-text"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
