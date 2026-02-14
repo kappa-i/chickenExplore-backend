@@ -37,7 +37,11 @@
         "grilled",
         "fried",
         "roasted",
-        "baked"
+        "baked",
+        "stewed",
+        "smoked",
+        "steamed",
+        "braised"
       ]
     },
     "time": {
