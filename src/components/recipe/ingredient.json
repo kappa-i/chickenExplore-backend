@@ -6,6 +6,9 @@
   },
   "options": {},
   "attributes": {
+    "group": {
+      "type": "string"
+    },
     "quantity": {
       "type": "string"
     },
